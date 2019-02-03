@@ -1,0 +1,1 @@
+ifconfig | grep -A 2 "HWTAGGING" | grep "ether" | rev | cut -d ' ' -f2 | rev
