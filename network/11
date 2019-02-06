@@ -1,0 +1,3 @@
+Le nom et l'IP du matériel qui fait le lien entre le reseau local et l'extérieur sont
+nat-1 (10.60.1.11)
+#Network address translation

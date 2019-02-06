@@ -1,1 +1,1 @@
-ifconfig | grep "bridge" | cut -d ':' -f1
+route -n get default | grep "gateway"
