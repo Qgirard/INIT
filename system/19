@@ -1,2 +1,2 @@
-ps aux | awk '{print $11}'
-# Ces services sont des processus
+sudo systemctl list-unit-files | grep "enabled"
+# Ces services sont appelés services daemon

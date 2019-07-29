@@ -1,2 +1,2 @@
-ssh login@ip
+ssh login@localhost -p [port]
 #ssh login@localhost (se connecter ici à partir d'ici)

@@ -1,1 +1,1 @@
-systemctl status ssh | grep "Main PID" | awk '{print $3}'
+sudo systemctl status ssh | grep "Main PID" | awk '{print $3}'

@@ -1,1 +1,3 @@
-dpkg --get-selections
+sudo dpkg --get-selections
+#sudo apt list --installed
+#sudo dpkg-query -l

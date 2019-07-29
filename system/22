@@ -1,1 +1,1 @@
-sudo useradd [identifiant]
+sudo adduser [identifiant]

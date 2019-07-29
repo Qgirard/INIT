@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Enter an user to kill"
+read user
+sudo pkill -u $user
+sudo userdel -f $user
